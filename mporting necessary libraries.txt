@@ -1,0 +1,40 @@
+# Importing necessary libraries
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+
+
+# Loading the dataset
+crop = pd.read_csv("dataset/Crop_recommendation.csv")
+
+
+
+
+crop.head()
+
+
+
+crop.tail()
+
+
+crop.shape
+
+
+
+crop.info()
+
+
+# to check the missing values
+crop.isnull()
+
+
+
+# to check the missing values
+crop.isnull().sum()
+
+
+
+        
